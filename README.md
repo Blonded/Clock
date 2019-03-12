@@ -1,6 +1,5 @@
 # Clock
 Clock built with Javascript, Html, and CSS
-
 This is an animated clock created with just the basics. Oooh digital.
 
 ## Built with
