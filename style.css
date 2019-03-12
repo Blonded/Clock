@@ -6,8 +6,9 @@ html, body{
     -o-background-size: cover; 
     background-size: cover;
     overflow: visible;
+    color: black;
 }
 
 .hand {
 
-}
+} 
