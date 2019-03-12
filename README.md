@@ -8,6 +8,8 @@ This is an animated clock created with just the basics. Oooh digital.
 - CSS
 - Javascript
 
-## Authors
+## Author
 Lena Martinson [Github](http://www.github.com/Blonded)
 
+## Background image by:
+Valentino [Unsplash](https://unsplash.com/@iampatrickpilz)
