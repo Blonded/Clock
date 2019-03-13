@@ -1,14 +1,19 @@
-html, body{
+body{
     width: 100%;
     background: url("imgs/bridge.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; 
     background-size: cover;
-    overflow: visible;
+    overflow: visible; 
     color: black;
+    font-family: lato;
+    margin-top: 200px;
+    text-align: center;
 }
 
-.hand {
+#clockDisplay {
+    font-weight: 300;
+    font-size: 100px;
+}
 
-} 

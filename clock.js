@@ -8,13 +8,14 @@ function showTime(){
     var m = date.getMinutes(); // 0-59 min
     // Setting Seconds
     var s = date.getSeconds(); // 0-59 sec
-    var meridiem = "am"; // am or pm
-}
-
-
 
 // Generate where the javascript will take place, in this case it will be in the clockDisplay Div.
 
-document.getElementById("clockDisplay").innerText = time;
+//will not work in firefox
+document.getElementById("#clockDisplay").innerHTML = time;
+//wont work in internet explorer
 document.getElementById("clockDisplay").textContent = time;
 
+}
+
+showTime();
