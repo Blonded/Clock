@@ -1,11 +1,33 @@
+var clock = document.getElementById('clockDisplay');
+
 // getHours gives the hours divided by 12.
     // console.log(time.getHours() % 12);
     // console.log(time.getMinutes());
     // console.log(time.getSeconds());
 
+
 function digClock (){
     var time = new Date();
-    var hours = time.getHours();
+    var hours = (time.getHours() % 12).toString();
     var minutes = time.getMinutes();
     var seconds = time.getSeconds();
+
+    if (hours.length < 2){
+        hours = '0' + hours ;
+    }
+
+    if (minutes.length < 2) {
+        minutes = '0' + minutes;
+    }
+
+    if (seconds.length < 2) {
+        seconds = '0' + seconds;
+    }
+
+    // clock string
+    var clockStr = hours + " : " + minutes + " . " + seconds;
+
+    clock.textContent = clockStr;
 }
+
+digClock();
