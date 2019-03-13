@@ -1,9 +1,11 @@
+// getHours gives the hours divided by 12.
+    // console.log(time.getHours() % 12);
+    // console.log(time.getMinutes());
+    // console.log(time.getSeconds());
 
-// Setting variables for clock operations
+function digClock (){
     var time = new Date();
-
-console.log(time.getHours());
-console.log(time.getMinutes());
-console.log(time.getSeconds());
-
-// Check to make sure you are receiving the correct timing.
+    var hours = time.getHours();
+    var minutes = time.getMinutes();
+    var seconds = time.getSeconds();
+}
