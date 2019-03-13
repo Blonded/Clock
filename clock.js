@@ -10,8 +10,8 @@ var clock = document.getElementById('clockDisplay');
 function digClock (){
     var time = new Date();
     var hours = (time.getHours() % 12).toString();
-    var minutes = time.getMinutes();
-    var seconds = time.getSeconds();
+    var minutes = time.getMinutes().toString();
+    var seconds = time.getSeconds().toString();
 
     if (hours.length < 2){
         hours = '0' + hours ;
