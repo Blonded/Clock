@@ -1,3 +1,4 @@
+// Creating a variable for clock, and grabbing it by the div ID.
 var clock = document.getElementById('clockDisplay');
 
 // getHours gives the hours divided by 12.
@@ -5,7 +6,7 @@ var clock = document.getElementById('clockDisplay');
     // console.log(time.getMinutes());
     // console.log(time.getSeconds());
 
-
+// Function to run the clock
 function digClock (){
     var time = new Date();
     var hours = (time.getHours() % 12).toString();
@@ -30,4 +31,7 @@ function digClock (){
     clock.textContent = clockStr;
 }
 
+// Call the function once, so it doesn't skip the first second
 digClock();
+// To run the function every second thereafter.
+setInterval(digClock, 1000);
