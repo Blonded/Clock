@@ -1,6 +1,6 @@
 # Clock
 Clock built with Javascript, Html, and CSS
-This is an animated clock created with just the basics. Oooh digital.
+This is a clock showing the current time based on your location, as well as the current date. 
 
 ## Built with
 - HTML

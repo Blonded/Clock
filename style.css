@@ -6,14 +6,15 @@ body{
     -o-background-size: cover; 
     background-size: cover;
     overflow: visible; 
-    color: black;
+    color: #af5f5f;
     font-family: lato;
     margin-top: 200px;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 
 #clockDisplay {
     font-weight: 300;
     font-size: 100px;
+    /* border-style: solid; */
 }
-
