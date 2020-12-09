@@ -4,6 +4,8 @@ This is a clock showing the current time based on your location, as well as the 
 
 DEMO [Demo] (https://blonded.github.io/Clock)
 
+<img src="imgs/preview.jpg" alt="Demo-photo">
+
 ## Built with
 - HTML
 - CSS
