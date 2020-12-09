@@ -1,9 +1,9 @@
 # Clock
 Clock built with Javascript, Html, and CSS
-This is a clock showing the current time based on your location, as well as the current date. 
+This is a basic clock showing the current time based on your location, as well as the current date. 
 
+# Preview:
 DEMO [Demo] (https://blonded.github.io/Clock)
-
 <img src="imgs/preview.jpg" alt="Demo-photo">
 
 ## Built with
