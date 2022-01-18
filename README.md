@@ -14,7 +14,7 @@ DEMO [Demo] (https://blonded.github.io/Clock)
 - Javascript
 
 ## Author
-Lena Martinson [Github](http://www.github.com/Blonded)
+Lena Blonded [Github](http://www.github.com/Blonded)
 
 ## Background image by:
 Valentino [Unsplash](https://unsplash.com/@iampatrickpilz)
